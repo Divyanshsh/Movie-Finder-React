@@ -21,7 +21,7 @@ class GetInput extends React.Component {
     render() {
         return (
             <div className="container">
-                <h3 className="text-center">Movie Information</h3>
+                <h3 className="text-center">Movie Info</h3>
                 <form onSubmit={this.onSubmitInput} className="d-flex mt-5">
                     <label className="m-2 font-weight-bold">Title</label>
                     <input
